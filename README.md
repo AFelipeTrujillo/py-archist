@@ -42,7 +42,7 @@ src/
 
 ### Installation
 
-1. Download the script
+1. **Download the script**
 You can download the initialization script directly from the repository using `curl`:
 
 **Using curl:**
@@ -50,14 +50,14 @@ You can download the initialization script directly from the repository using `c
 curl -O [https://raw.githubusercontent.com/AFelipeTrujillo/py-archist/main/init_archist.sh](https://raw.githubusercontent.com/AFelipeTrujillo/py-archist/main/py_archist.sh)
 ```
 
-2. Set Execution Permissions
+2. **Set Execution Permissions**
 Before running the script, you must grant it execution permissions:
 
 ```bash
 chmod +x py_archist.sh
 ```
 
-3. Run the Scaffolding Tool
+3. **Run the Scaffolding Tool**
 Execute the script in the directory where you want to start your new project:
 ```bash
 ./py_archist.sh
