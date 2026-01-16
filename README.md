@@ -1,6 +1,6 @@
 # Python Archist
 
-**Python Archist** is a lightweight bash utility designed to scaffold **Clean Architecture** directory structures for Python projects in seconds. It organizes your code into layers, making it decoupled, testable, and easy to maintain.
+Archist is a lightweight bash utility designed to scaffold **Clean Architecture** directory structures for Python projects in seconds. It organizes your code into layers, making it decoupled, testable, and easy to maintain.
 
 ## Project Structure
 
@@ -42,25 +42,30 @@ src/
 
 ### Installation
 
-1. **Activate the virtual environment**:
-```bash
-source .venv/bin/activate  # Linux/macOS
-# or
-.venv\Scripts\activate     # Windows
+1. Download the script
+You can download the initialization script directly from the repository using `curl`:
 
+**Using curl:**
+```bash
+curl -O [https://raw.githubusercontent.com/AFelipeTrujillo/py-archist/main/init_archist.sh](https://raw.githubusercontent.com/AFelipeTrujillo/py-archist/main/py_archist.sh)
 ```
 
+2. Set Execution Permissions
+Before running the script, you must grant it execution permissions:
 
-2. **Install dependencies**:
+```bash
+chmod +x py_archist.sh
+```
+
+3. Run the Scaffolding Tool
+Execute the script in the directory where you want to start your new project:
+```bash
+./py_archist.sh
+```
+
+4. **Install dependencies**:
 ```bash
 pip install .
-
-```
-
-
-3. **Setup environment variables**:
-```bash
-cp .env.example .env
 
 ```
 
