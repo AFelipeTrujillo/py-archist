@@ -1,5 +1,10 @@
 # Python Archist
 
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Clean Architecture](https://img.shields.io/badge/Architecture-Clean%20%2F%20Hexagonal-green.svg)](#project-structure)
+[![Maintained](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg)](https://github.com/AFelipeTrujillo/py-archist/graphs/commit-activity)
+
 Archist is a lightweight bash utility designed to scaffold **Clean Architecture** directory structures for Python projects in seconds. It organizes your code into layers, making it decoupled, testable, and easy to maintain.
 
 ## Directory Tree
