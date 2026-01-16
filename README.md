@@ -1,5 +1,3 @@
-### README.md
-
 # Python Archist
 
 A clean architecture boilerplate for Python projects, inspired by the hexagonal architecture (Ports and Adapters) pattern. This project provides a solid foundation for building maintainable, scalable, and testable applications by decoupling core business logic from technical implementation details.
