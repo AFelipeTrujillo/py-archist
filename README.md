@@ -54,7 +54,7 @@ You can download the initialization script directly from the repository using `c
 
 **Using curl:**
 ```bash
-curl -O https://raw.githubusercontent.com/AFelipeTrujillo/py-archist/main/py_archist.sh
+curl -O https://raw.githubusercontent.com/AFelipeTrujillo/py-archist/refs/heads/master/py_archist.sh
 ```
 
 #### 2. **Set Execution Permissions**
